@@ -36,7 +36,7 @@ public class greedy_1026 {
                 j--;
             }
         }
-        //A배열 정렬
+        //B배열 정렬
         for(int i = n - 1; i > 0; i--){
             int j = i;
             while(B[j] > B[j - 1]){
